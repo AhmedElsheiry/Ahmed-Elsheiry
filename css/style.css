@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+span {
+    color: red;
+}
+
+.list a {
+    text-decoration: none;
+    padding-left: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.list a:hover {
+    color: red;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content h1 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.content h4 {
+    color: red;
+    font-size: 25px;
+}
+
+.letter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 30px 15px;
+    border-radius: 30px;
+    border: 2px solid red;
+}
+
+form input:last-child {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.about {
+    padding: 100px 0;
+    width: 100%;
+    background-color: #191919;
+}
+
+.main img {
+    height: auto;
+    width: 430px;
+
+}
+
+.about-title {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about h1 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.about h4 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #fcfc;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.about button {
+    color: white;
+    background-color: #f9004d;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+
+.about button:hover {
+    transform: scale(1.1);
+}
+
+.Service {
+    padding: 100px 0;
+    width: 100%;
+    background-color: #101010;
+}
+
+.Service h1 {
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    min-height: 390px;
+    width: 335px;
+    border-radius: 20px;
+    background-color: #191919;
+    padding: 30px 40px;
+    text-align: center;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.card i {
+    color: #f9004d;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.card h4 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.titlee p {
+    color: #fcfc;
+    line-height: 2;
+}
+
+.titlee button {
+    color: white;
+    background-color: #f9004d;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.titlee button:hover {
+    transform: scale(1.1);
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    background-color: #191919;
+}
+
+.bot h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.bot button {
+    color: white;
+    background-color: #f9004d;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.bot button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    min-height: 230px;
+    width: 100%;
+    background-color: #101010;
+}
+
+.footer-content {
+    padding: 100px 0;
+}
+
+.footer-content h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-content .pra {
+    color: white;
+    font-size: 20px;
+    width: 700px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.icon i {
+    color: white;
+    background-color: #f9004d;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+    width: 60px;
+    transition: 0.4s;
+}
+
+.icon i:hover {
+    transform: scale(1.1);
+}
+
+.praa {
+    margin-top: 100px;
+    color: #f9004d;
+    font-weight: 600;
+}
